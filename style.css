@@ -1,0 +1,82 @@
+/* Wirefreame css*/
+*{
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+body{
+    font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background-color: #777;
+    width: 960px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 260px;
+    margin-top: 30px;
+
+}
+.content{
+    position: relative;
+}
+   header, Nav, aside, footer{
+    background-color:  #ebebeb;
+    float:left;
+    margin-bottom: 20px;
+    
+    
+   
+   }
+   header,footer,nav{
+       padding:20px;
+       width:100%;
+      
+      
+      
+   }
+   header{
+   margin-bottom:10px;
+}
+    aside{
+        position: relative;
+        width:39%;
+        padding:50px;      
+        left:10px;
+        height:320px;
+        
+        
+    }
+   section{
+        
+        width: 60%;
+        padding:30px;
+        background-color:  #ebebeb;
+        float:left;
+        margin-bottom: 20px;
+    
+        
+    }
+    article{
+        
+        color: #ebebeb;
+        background-color: #777;
+        padding:10px;
+    }
+     
+    h1,.text
+   {
+         color: #777;
+         background-color: #ebebeb;
+         margin-bottom: 10px;
+         width:100%;
+         padding:10px;
+         
+    }
+    h1{
+        float:left; 
+       
+         
+    }
+    .text{
+        clear:both;
+        margin-top: 20px;
+        }
